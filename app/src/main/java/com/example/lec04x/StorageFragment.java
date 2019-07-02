@@ -35,7 +35,7 @@ public class StorageFragment extends Fragment {
     private ImageView imagen;
     private static final int GALLERYINTENT = 1;
     private StorageReference mStorageRef;
-    private ImageView prueba;
+    private ImageView prueba4;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
