@@ -59,7 +59,7 @@ public class StorageFragment extends Fragment {
                 Intent intent = new Intent(Intent.ACTION_PICK);
                 intent.setType("image/*");
                 startActivityForResult(intent,GALLERYINTENT);
-
+//prueba
             }
         });
 
