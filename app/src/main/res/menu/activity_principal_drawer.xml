@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_storage"
+            android:icon="@drawable/ic_menu_storage"
+            android:title="@string/menu_storage" />
+        <item
+            android:id="@+id/nav_realtime"
+            android:icon="@drawable/ic_menu_realtime"
+            android:title="@string/menu_realtime" />
+        <item
+            android:id="@+id/nav_firestone"
+            android:icon="@drawable/ic_menu_firestone"
+            android:title="@string/menu_firestone" />
+    </group>
+
+    <item android:title="Application">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/menu_exit" />
+            <item
+                android:id="@+id/nav_logoff"
+                android:icon="@drawable/ic_menu_logoff"
+                android:title="@string/menu_logoff" />
+        </menu>
+    </item>
+
+</menu>
