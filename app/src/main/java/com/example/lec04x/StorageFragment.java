@@ -35,6 +35,7 @@ public class StorageFragment extends Fragment {
     private ImageView imagen;
     private static final int GALLERYINTENT = 1;
     private StorageReference mStorageRef;
+    private ImageView prueba;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -106,7 +107,7 @@ public class StorageFragment extends Fragment {
             @Override
             public void onFailure(@NonNull Exception exception) {
                 // Handle failed download
-                // ... prueba
+                // ...
             }
         });
     }
