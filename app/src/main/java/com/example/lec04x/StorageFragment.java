@@ -58,8 +58,8 @@ public class StorageFragment extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_PICK);
                 intent.setType("image/*");
-                startActivityForResult(intent,GALLERYINTENT);
-//prueba
+                startActivityForResult(intent,GALLERYINTENT);;;;;
+
             }
         });
 
